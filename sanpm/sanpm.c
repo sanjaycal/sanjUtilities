@@ -56,6 +56,31 @@ int main(int argc, char *argv[]){
 			
 		}
 	}
+	if(argc==3){
+		if(strcmp(argv[1],"update")==0){
+			if (strcmp(argv[2],"santext")==0){
+				update(0);
+			}
+			if (strcmp(argv[2],"sancat")==0){
+				update(1);
+			}
+			if (strcmp(argv[2],"sancopy")==0){
+				update(2);
+			}
+			if (strcmp(argv[2],"sandate")==0){
+				update(3);
+			}
+			if (strcmp(argv[2],"sanls")==0){
+				update(4);
+			}
+			if (strcmp(argv[2],"sanmove")==0){
+				update(5);
+			}
+			if (strcmp(argv[2],"sanremove")==0){
+				update(6);
+			}
+		}
+	}
 
 	return 0;
 }
