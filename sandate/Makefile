@@ -1,3 +1,3 @@
 all:
 	gcc -o sandate sandate.c
-	sudo mv sandate /bin
+	sudo cp sandate /bin

@@ -1,3 +1,3 @@
 all:
-	gcc -o sanrename sanrename.c
-	sudo cp sanrename /bin
+	gcc -o sanmove sanrename.c
+	sudo cp sanmove /bin

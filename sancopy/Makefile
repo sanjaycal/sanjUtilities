@@ -1,3 +1,3 @@
 all:
 	gcc -o sancopy sancopy.c
-	sudo mv sancopy /bin
+	sudo cp sancopy /bin

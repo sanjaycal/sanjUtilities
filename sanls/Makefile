@@ -1,3 +1,3 @@
 all:
 	gcc -o sanls sanls.c
-	sudo mv sanls /bin
+	sudo cp sanls /bin
