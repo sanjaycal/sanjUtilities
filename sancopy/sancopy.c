@@ -7,6 +7,10 @@ int main(int argc, char **argv){
 	
 	FILE *fptr;
 	
+	if(argc == 1){
+		printf("\nSancopy\n\nThis utility is to copy files\n\nTo use this utility, type:\nsancat fileToBeCopied.txt path/to/copied/file/copiedfile.txt\n\n");
+	}
+
 	if(argc == 3){
 		long lsize;
 		char *buffer;
